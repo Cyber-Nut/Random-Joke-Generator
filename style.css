@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FFDF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 30rem;
+    width: 50rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Adds shadow for elevation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.img-container img{
+    max-height: 17vh;
+    margin-top: 5rem;
+}
+
+.joke-container{
+    margin-top: 4rem;
+    max-width: 75vh;
+}
+
+.joke-container p{
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ques{
+    margin-bottom: .2 rem;
+}
+
+button {
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;       /* Adjust padding for spacing */
+    width: auto;                 /* Let the width adjust to the text */
+    text-align: center;          /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;             /* Changes cursor to pointer on hover */
+    border: none;                /* Remove default button border */
+}
